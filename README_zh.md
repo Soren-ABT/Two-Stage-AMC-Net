@@ -1,6 +1,13 @@
 # Two-Stage-AMC-Net
+**语言:**
+[**English**](./README.md) / [**中文**](./README.zh.md)
 
+---
 **Two-Stage-AMC-Net**是一个用于自动调制识别（Automatic Modulation Classification, AMC）的深度学习模型。该模型基于 1D ResNet-18 骨架，采用 **4 通道多模态输入（I/Q + 幅度 + 相位）**，结合**两阶段课程训练策略**与**标签平滑正则化**，在 RadioML 2018.01A 数据集上实现了 SNR ≥ 0 dB 条件下 **92%+ 的分类准确率**。
+
+---
+## 两阶段训练后精确度
+![Average accuracy of Two-Stage-AMC-Net](https://github.com/Soren-ABT/Two-Stage-AMC-Net/blob/main/stage2/stage2_epoch45.png)
 
 ---
 
