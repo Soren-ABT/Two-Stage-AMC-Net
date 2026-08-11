@@ -86,12 +86,6 @@ python train_cnn.py
 
 训练结束后生成 `best_final_model.pth` 和 `AMC_Report_Stage2.pdf`。
 
-### 4. 查看结果
-
-- 命令行中关注 `>>> SNR >= 0 dB average accuracy`，目标 ≥ 90%。
-- 打开 `snr_accuracy_epoch_*.png` 查看 Per‑SNR 曲线。
-- 打开 `AMC_Report_Stage2.pdf` 查看完整报告。
-
 ---
 
 ## 项目结构
@@ -99,9 +93,11 @@ python train_cnn.py
 ```
 Two-Stage-AMC-Net/
 ├── train_cnn.py                  # 主训练脚本
-├── Model stage                   # 两阶段训练权重及其我的运行图片
+├── README.md                    
 ├── LICENSE             
-└── README.md              
+└── Model stage                   # 两阶段训练权重及其我的运行图片
+    ├── best_final_model.pth
+    └── stage1_snr10_30.pth
 ```
 
 ---
