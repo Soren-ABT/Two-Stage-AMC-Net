@@ -1,0 +1,189 @@
+D:\Miniconda3\envs\amc\python.exe D:\Output\PycharmProjects\AMC\train_cnn.py 
+Stage: 1, SNR range: (10, 30), LR: 0.001
+Loading data...
+Train: 865075, Val: 216269
+
+Epoch 1/60
+Train Loss: 0.9530 | Train Acc: 83.52%
+Val   Loss: 0.8303 | Val   Acc: 90.60%
+  >>> SNR >= 0 dB average accuracy: 62.29% <<<
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]  => Saved (val_loss 0.8303)
+
+Epoch 2/60
+Train Loss: 0.7772 | Train Acc: 92.67%
+Val   Loss: 0.7658 | Val   Acc: 93.28%
+  >>> SNR >= 0 dB average accuracy: 64.13% <<<
+  => Saved (val_loss 0.7658)
+
+Epoch 3/60
+Train Loss: 0.7435 | Train Acc: 94.17%
+Val   Loss: 0.7409 | Val   Acc: 94.33%
+  >>> SNR >= 0 dB average accuracy: 64.85% <<<
+  => Saved (val_loss 0.7409)
+
+Epoch 4/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.7269 | Train Acc: 94.92%
+Val   Loss: 0.7432 | Val   Acc: 94.38%
+  >>> SNR >= 0 dB average accuracy: 64.88% <<<
+
+Epoch 5/60
+Train Loss: 0.7175 | Train Acc: 95.30%
+Val   Loss: 0.7280 | Val   Acc: 94.95%
+  >>> SNR >= 0 dB average accuracy: 65.28% <<<
+  => Saved (val_loss 0.7280)
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]
+Epoch 6/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.7102 | Train Acc: 95.61%
+Val   Loss: 0.7178 | Val   Acc: 95.25%
+  >>> SNR >= 0 dB average accuracy: 65.48% <<<
+  => Saved (val_loss 0.7178)
+
+Epoch 7/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.7059 | Train Acc: 95.80%
+Val   Loss: 0.7179 | Val   Acc: 95.32%
+  >>> SNR >= 0 dB average accuracy: 65.53% <<<
+
+Epoch 8/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.7017 | Train Acc: 95.97%
+Val   Loss: 0.7082 | Val   Acc: 95.70%
+  >>> SNR >= 0 dB average accuracy: 65.80% <<<
+  => Saved (val_loss 0.7082)
+
+Epoch 9/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6985 | Train Acc: 96.12%
+Val   Loss: 0.7005 | Val   Acc: 96.09%
+  >>> SNR >= 0 dB average accuracy: 66.06% <<<
+  => Saved (val_loss 0.7005)
+
+Epoch 10/60
+Train Loss: 0.6958 | Train Acc: 96.21%
+Val   Loss: 0.7066 | Val   Acc: 95.88%
+  >>> SNR >= 0 dB average accuracy: 65.92% <<<
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]
+Epoch 11/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6932 | Train Acc: 96.35%
+Val   Loss: 0.7097 | Val   Acc: 95.66%
+  >>> SNR >= 0 dB average accuracy: 65.77% <<<
+
+Epoch 12/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6915 | Train Acc: 96.42%
+Val   Loss: 0.7034 | Val   Acc: 95.80%
+  >>> SNR >= 0 dB average accuracy: 65.86% <<<
+
+Epoch 13/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6896 | Train Acc: 96.48%
+Val   Loss: 0.6969 | Val   Acc: 96.26%
+  >>> SNR >= 0 dB average accuracy: 66.18% <<<
+  => Saved (val_loss 0.6969)
+
+Epoch 14/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6883 | Train Acc: 96.57%
+Val   Loss: 0.7040 | Val   Acc: 95.87%
+  >>> SNR >= 0 dB average accuracy: 65.91% <<<
+
+Epoch 15/60
+Train Loss: 0.6867 | Train Acc: 96.63%
+Val   Loss: 0.6925 | Val   Acc: 96.42%
+  >>> SNR >= 0 dB average accuracy: 66.29% <<<
+  => Saved (val_loss 0.6925)
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]
+Epoch 16/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6853 | Train Acc: 96.70%
+Val   Loss: 0.7032 | Val   Acc: 95.83%
+  >>> SNR >= 0 dB average accuracy: 65.88% <<<
+
+Epoch 17/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6841 | Train Acc: 96.75%
+Val   Loss: 0.6955 | Val   Acc: 96.25%
+  >>> SNR >= 0 dB average accuracy: 66.17% <<<
+
+Epoch 18/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6828 | Train Acc: 96.82%
+Val   Loss: 0.6993 | Val   Acc: 96.04%
+  >>> SNR >= 0 dB average accuracy: 66.03% <<<
+
+Epoch 19/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6819 | Train Acc: 96.86%
+Val   Loss: 0.6920 | Val   Acc: 96.38%
+  >>> SNR >= 0 dB average accuracy: 66.26% <<<
+  => Saved (val_loss 0.6920)
+
+Epoch 20/60
+Train Loss: 0.6807 | Train Acc: 96.92%
+Val   Loss: 0.6989 | Val   Acc: 96.05%
+  >>> SNR >= 0 dB average accuracy: 66.03% <<<
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]
+Epoch 21/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6795 | Train Acc: 96.96%
+Val   Loss: 0.7111 | Val   Acc: 95.58%
+  >>> SNR >= 0 dB average accuracy: 65.71% <<<
+
+Epoch 22/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6783 | Train Acc: 97.03%
+Val   Loss: 0.7048 | Val   Acc: 95.79%
+  >>> SNR >= 0 dB average accuracy: 65.86% <<<
+
+Epoch 23/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6770 | Train Acc: 97.11%
+Val   Loss: 0.6924 | Val   Acc: 96.30%
+  >>> SNR >= 0 dB average accuracy: 66.20% <<<
+
+Epoch 24/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6759 | Train Acc: 97.16%
+Val   Loss: 0.7025 | Val   Acc: 95.97%
+  >>> SNR >= 0 dB average accuracy: 65.98% <<<
+
+Epoch 25/60
+Train Loss: 0.6743 | Train Acc: 97.26%
+Val   Loss: 0.7024 | Val   Acc: 96.01%
+  >>> SNR >= 0 dB average accuracy: 66.00% <<<
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]
+Epoch 26/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6731 | Train Acc: 97.32%
+Val   Loss: 0.6971 | Val   Acc: 96.11%
+  >>> SNR >= 0 dB average accuracy: 66.08% <<<
+
+Epoch 27/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6718 | Train Acc: 97.38%
+Val   Loss: 0.6923 | Val   Acc: 96.50%
+  >>> SNR >= 0 dB average accuracy: 66.34% <<<
+
+Epoch 28/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6702 | Train Acc: 97.48%
+Val   Loss: 0.7025 | Val   Acc: 96.03%
+  >>> SNR >= 0 dB average accuracy: 66.02% <<<
+
+Epoch 29/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6691 | Train Acc: 97.54%
+Val   Loss: 0.6967 | Val   Acc: 96.15%
+  >>> SNR >= 0 dB average accuracy: 66.10% <<<
+
+Epoch 30/60
+Train Loss: 0.6679 | Train Acc: 97.60%
+Val   Loss: 0.7078 | Val   Acc: 95.77%
+  >>> SNR >= 0 dB average accuracy: 65.84% <<<
+
+Epoch 31/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6665 | Train Acc: 97.67%
+Val   Loss: 0.7063 | Val   Acc: 95.84%
+  >>> SNR >= 0 dB average accuracy: 65.89% <<<
+
+Epoch 32/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6656 | Train Acc: 97.71%
+Val   Loss: 0.7053 | Val   Acc: 96.05%
+  >>> SNR >= 0 dB average accuracy: 66.03% <<<
+
+Epoch 33/60
+Train:   0%|          | 0/3380 [00:00<?, ?it/s]Train Loss: 0.6645 | Train Acc: 97.76%
+Val   Loss: 0.7029 | Val   Acc: 96.10%
+  >>> SNR >= 0 dB average accuracy: 66.06% <<<
+
+Epoch 34/60
+Train Loss: 0.6633 | Train Acc: 97.82%
+Val   Loss: 0.7047 | Val   Acc: 96.05%
+  >>> SNR >= 0 dB average accuracy: 66.03% <<<
+Early stop at epoch 34. Best val_loss 0.6920 at epoch 19
+  => PDF report saved: AMC_Report_Stage1.pdf
+Stage 1 finished. Best val_loss: 0.6920 at epoch 19
+
+进程已结束，退出代码为 0
