@@ -3,7 +3,7 @@
 **Two-Stage-AMC-Net** is a deep learning model for Automatic Modulation Classification (AMC). It is built upon a 1D ResNet-18 backbone and adopts **4-channel multi-modal inputs (I/Q + Amplitude + Phase)**, combined with a **two-stage curriculum training strategy** and **label smoothing regularization**. On the RadioML 2018.01A dataset, it achieves **92%+ classification accuracy** under SNR ≥ 0 dB.
 
 ---
-**Average accuracy of Two-Stage-AMC-Net**
+## Average accuracy of Two-Stage-AMC-Net
 ![Average accuracy of Two-Stage-AMC-Net](https://github.com/Soren-ABT/Two-Stage-AMC-Net/blob/main/stage2/stage2_epoch45.png)
 
 ---
